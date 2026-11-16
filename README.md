@@ -247,6 +247,14 @@ screenshots/           images used in this README
 
 ---
 
+## 📄 License
+
+The code and the cartoon teacher artwork are released under the [MIT License](LICENSE).
+
+**Exception:** the images in [`screenshots/`](screenshots/) show a real child and are **not** covered by the MIT License. All rights to them are reserved, so please don't reuse them.
+
+---
+
 ## 🙏 Acknowledgements
 
 - [MediaPipe Tasks Vision](https://developers.google.com/mediapipe) for pose and face landmark detection.
