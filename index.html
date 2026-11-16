@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Natya Mitra – Bharatanatyam Practice</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🪷</text></svg>">
+</head>
+<body>
+<video id="cam" playsinline muted></video>
+
+<!-- ============ START SCREEN (parent) ============ -->
+<section id="start-screen" class="screen">
+  <h1>🪷 Natya Mitra</h1>
+  <p class="sub">Bharatanatyam practice buddy</p>
+  <div class="form">
+    <label>Child's name <input id="child-name" placeholder="e.g. Chinni"></label>
+    <label>Camera <select id="camera-select"></select></label>
+    <label>Class length
+      <select id="session-length">
+        <option value="30">30 minutes (best for the first weeks)</option>
+        <option value="45">45 minutes</option>
+        <option value="60">60 minutes</option>
+      </select></label>
+    <label>Teacher voice
+      <select id="voice-mode">
+        <option value="mix">Telugu + English</option>
+        <option value="te">Telugu only</option>
+        <option value="en">English only</option>
+      </select></label>
+    <label>Rhythm speed (beats/min) <input id="tempo" type="number" min="32" max="72" step="2"></label>
+  </div>
+  <div class="buttons">
+    <button id="btn-start" class="big">▶ Start class</button>
+    <button id="btn-test-voice">🔊 Test voice</button>
+    <button id="btn-history">📒 Progress history</button>
+  </div>
+  <p id="start-status" class="status"></p>
+  <details class="help">
+    <summary>Parent keys during class</summary>
+    <ul>
+      <li><b>Space</b> pause / continue &nbsp; <b>B</b> water break now &nbsp; <b>N</b> skip to next activity</li>
+      <li><b>E</b> stop class &amp; save progress &nbsp; <b>+ / −</b> rhythm faster / slower &nbsp; <b>M</b> music on/off</li>
+      <li><b>D</b> show live measurements (for tuning) &nbsp; <b>F</b> full screen</li>
+    </ul>
+  </details>
+</section>
+
+<!-- ============ CLASS SCREEN (on the TV) ============ -->
+<section id="app" class="screen" hidden>
+  <header id="topbar">
+    <div id="act-title">Namaste!</div>
+    <div id="timebar"><div id="timebar-fill"></div></div>
+    <div id="stars">⭐ <span id="stars-count">0</span></div>
+    <div id="clock">00:00</div>
+    <button id="btn-stop" class="stop-button" type="button">⏹ Stop class</button>
+  </header>
+  <main id="stage">
+    <div id="mirror">
+      <canvas id="view"></canvas>
+      <div id="badge" class="badge"></div>
+      <div id="meter"><div id="meter-fill"></div></div>
+      <div id="gate-msg" hidden></div>
+      <div id="beatbar" hidden>
+        <div id="count-in"></div>
+        <div id="syllable"></div>
+        <div class="feet"><div id="foot-l" class="foot">🦶<small>Left</small></div><div id="beats"></div><div id="foot-r" class="foot flip">🦶<small>Right</small></div></div>
+      </div>
+    </div>
+    <aside id="side">
+      <div id="teacher-wrap">
+        <img id="teacher" src="css/images/teacher.svg" alt="Bharatanatyam teacher demonstrating a pose">
+      </div>
+      <div id="bubble"><div id="bubble-te"></div><div id="bubble-en"></div></div>
+      <div id="demo-wrap"><div class="demo-label">Do like this 👇</div><canvas id="demo" width="300" height="400"></canvas></div>
+    </aside>
+  </main>
+  <div id="break-overlay" class="overlay" hidden><div class="glass">🥤</div><h2 id="break-text">Water break!</h2><div id="break-count"></div></div>
+  <div id="pause-overlay" class="overlay" hidden><h2>⏸ Paused</h2><p>Press Space to continue</p></div>
+  <div id="loading-overlay" class="overlay" hidden><div class="spinner">🪷</div><h2 id="loading-text">Loading…</h2></div>
+  <pre id="debug" hidden></pre>
+  <div id="confetti"></div>
+</section>
+
+<!-- ============ REPORT / HISTORY ============ -->
+<section id="report-screen" class="screen" hidden></section>
+
+<script type="module" src="js/main.js"></script>
+</body>
+</html>

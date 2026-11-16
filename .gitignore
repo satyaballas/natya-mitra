@@ -1,0 +1,18 @@
+# Python virtual env
+.venv/
+__pycache__/
+
+# Editor / OS
+.vscode/
+.idea/
+.claude/
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Logs / temp
+*.log
+node_modules/
+
+# Original teacher photo (not ours to publish; replaced by teacher.svg)
+css/images/Teacher.jfif

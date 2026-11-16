@@ -1,0 +1,148 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 400" width="300" height="400" role="img" aria-labelledby="t">
+  <title id="t">Natya Mitra teacher – a cartoon Bharatanatyam dancer in Aramandi</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fbf4ea"/>
+      <stop offset="1" stop-color="#efe2d0"/>
+    </linearGradient>
+    <linearGradient id="silk" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f26a2e"/>
+      <stop offset="1" stop-color="#d9431f"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffd34d"/>
+      <stop offset="1" stop-color="#d49a12"/>
+    </linearGradient>
+  </defs>
+
+  <!-- backdrop with soft drape folds -->
+  <rect width="300" height="400" fill="url(#bg)"/>
+  <g fill="none" stroke="#e6d6c0" stroke-width="6" stroke-linecap="round" opacity=".8">
+    <path d="M30 0 Q22 140 40 400"/>
+    <path d="M78 0 Q90 160 70 400"/>
+    <path d="M226 0 Q212 170 232 400"/>
+    <path d="M272 0 Q284 150 262 400"/>
+  </g>
+  <ellipse cx="150" cy="370" rx="88" ry="12" fill="#d9c6ad" opacity=".7"/>
+
+  <!-- legs in Aramandi (knees out) -->
+  <g stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <path d="M132 224 L96 292 L126 350" stroke="#9b1b30" stroke-width="28"/>
+    <path d="M168 224 L204 292 L174 350" stroke="#9b1b30" stroke-width="28"/>
+    <!-- gold ankle borders -->
+    <path d="M114 334 L134 340" stroke="url(#gold)" stroke-width="7"/>
+    <path d="M186 334 L166 340" stroke="url(#gold)" stroke-width="7"/>
+  </g>
+
+  <!-- feet with alta and ankle bells -->
+  <g>
+    <ellipse cx="114" cy="361" rx="20" ry="8" transform="rotate(-14 114 361)" fill="#c98a5e" stroke="#c0283a" stroke-width="2.5"/>
+    <ellipse cx="186" cy="361" rx="20" ry="8" transform="rotate(14 186 361)" fill="#c98a5e" stroke="#c0283a" stroke-width="2.5"/>
+    <g fill="url(#gold)" stroke="#b07a0c" stroke-width=".8">
+      <circle cx="116" cy="351" r="3.2"/><circle cx="123" cy="353" r="3.2"/><circle cx="130" cy="353" r="3.2"/><circle cx="137" cy="351" r="3.2"/>
+      <circle cx="163" cy="351" r="3.2"/><circle cx="170" cy="353" r="3.2"/><circle cx="177" cy="353" r="3.2"/><circle cx="184" cy="351" r="3.2"/>
+    </g>
+  </g>
+
+  <!-- pleated fan -->
+  <path d="M134 222 L166 222 L190 304 Q150 316 110 304 Z" fill="url(#silk)"/>
+  <g stroke="#ffcf3f" stroke-width="2.4" opacity=".95">
+    <line x1="150" y1="224" x2="150" y2="311"/>
+    <line x1="146" y1="224" x2="130" y2="309"/>
+    <line x1="154" y1="224" x2="170" y2="309"/>
+    <line x1="142" y1="224" x2="116" y2="305"/>
+    <line x1="158" y1="224" x2="184" y2="305"/>
+  </g>
+  <path d="M110 304 Q150 316 190 304" fill="none" stroke="url(#gold)" stroke-width="7" stroke-linecap="round"/>
+
+  <!-- torso / blouse -->
+  <path d="M116 162 Q150 150 184 162 L178 218 L122 218 Z" fill="url(#silk)"/>
+  <path d="M136 156 Q150 176 164 156" fill="none" stroke="url(#gold)" stroke-width="4"/>
+  <!-- waist belt (oddiyanam) -->
+  <rect x="120" y="211" width="60" height="13" rx="5" fill="url(#gold)" stroke="#b07a0c" stroke-width="1"/>
+  <circle cx="150" cy="217.5" r="5" fill="#c0283a" stroke="#fff3c4" stroke-width="1.2"/>
+
+  <!-- arms -->
+  <g stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <!-- her left arm (screen left): hand on waist -->
+    <path d="M122 168 L92 194 L120 213" stroke="#c98a5e" stroke-width="12"/>
+    <!-- her right arm (screen right): stretched out in Pataka -->
+    <path d="M178 168 L220 172 L250 162" stroke="#c98a5e" stroke-width="12"/>
+    <!-- sleeves -->
+    <path d="M122 166 L106 180" stroke="url(#silk)" stroke-width="16"/>
+    <path d="M178 166 L198 169" stroke="url(#silk)" stroke-width="16"/>
+    <path d="M109 175 L102 182" stroke="url(#gold)" stroke-width="4"/>
+    <path d="M196 163 L195 175" stroke="url(#gold)" stroke-width="4"/>
+    <!-- bangles -->
+    <path d="M111 202 L108 210" stroke="url(#gold)" stroke-width="4"/>
+    <path d="M243 158 L246 170" stroke="url(#gold)" stroke-width="4"/>
+  </g>
+  <!-- fist at waist -->
+  <circle cx="121" cy="212" r="7" fill="#c98a5e"/>
+  <!-- Pataka hand: flat palm, fingers up, thumb bent in -->
+  <g transform="rotate(8 257 146)">
+    <rect x="246" y="122" width="22" height="44" rx="10" fill="#c98a5e"/>
+    <g stroke="#a96e45" stroke-width="1.4" stroke-linecap="round">
+      <line x1="251.5" y1="125" x2="251.5" y2="140"/>
+      <line x1="257" y1="124" x2="257" y2="140"/>
+      <line x1="262.5" y1="125" x2="262.5" y2="140"/>
+    </g>
+    <ellipse cx="244" cy="152" rx="4.5" ry="8.5" transform="rotate(-25 244 152)" fill="#c98a5e"/>
+    <circle cx="257" cy="152" r="3.2" fill="#c0283a"/>
+  </g>
+
+  <!-- neck -->
+  <rect x="142" y="140" width="16" height="18" rx="6" fill="#b97a50"/>
+  <!-- necklace -->
+  <path d="M132 158 Q150 186 168 158" fill="none" stroke="url(#gold)" stroke-width="3.5"/>
+  <circle cx="150" cy="178" r="5" fill="#2f9e5b" stroke="url(#gold)" stroke-width="2"/>
+
+  <!-- hair, bun and jasmine -->
+  <circle cx="198" cy="80" r="20" fill="#2b1a12"/>
+  <g fill="#ffffff" stroke="#e8e0d0" stroke-width=".8">
+    <circle cx="180" cy="66" r="4"/><circle cx="188" cy="60" r="4"/><circle cx="197" cy="58" r="4"/>
+    <circle cx="206" cy="60" r="4"/><circle cx="214" cy="67" r="4"/><circle cx="218" cy="77" r="4"/>
+    <circle cx="217" cy="88" r="4"/>
+  </g>
+  <circle cx="150" cy="100" r="50" fill="#2b1a12"/>
+
+  <!-- face -->
+  <ellipse cx="150" cy="112" rx="40" ry="42" fill="#c98a5e"/>
+  <path d="M110 104 Q150 62 190 104 Q182 76 150 70 Q118 76 110 104 Z" fill="#2b1a12"/>
+  <path d="M150 54 L150 78" stroke="#5a3a22" stroke-width="1.5"/>
+  <!-- maang tikka -->
+  <path d="M150 58 L150 80" stroke="url(#gold)" stroke-width="2"/>
+  <circle cx="150" cy="83" r="5" fill="url(#gold)" stroke="#b07a0c" stroke-width="1"/>
+  <circle cx="150" cy="83" r="2" fill="#c0283a"/>
+
+  <!-- ears and jhumkas -->
+  <ellipse cx="110" cy="114" rx="6" ry="9" fill="#b97a50"/>
+  <ellipse cx="190" cy="114" rx="6" ry="9" fill="#b97a50"/>
+  <g fill="url(#gold)" stroke="#b07a0c" stroke-width="1">
+    <path d="M102 124 Q110 118 118 124 L116 132 Q110 136 104 132 Z"/>
+    <path d="M182 124 Q190 118 198 124 L196 132 Q190 136 184 132 Z"/>
+  </g>
+
+  <!-- eyebrows -->
+  <path d="M124 96 Q134 90 143 95" fill="none" stroke="#2b1a12" stroke-width="3" stroke-linecap="round"/>
+  <path d="M157 95 Q166 90 176 96" fill="none" stroke="#2b1a12" stroke-width="3" stroke-linecap="round"/>
+  <!-- bindi -->
+  <circle cx="150" cy="96" r="3.4" fill="#c0283a"/>
+  <!-- eyes with kohl wings -->
+  <g>
+    <ellipse cx="134" cy="110" rx="8" ry="9.5" fill="#fff"/>
+    <ellipse cx="166" cy="110" rx="8" ry="9.5" fill="#fff"/>
+    <circle cx="135" cy="111" r="5.5" fill="#3a2214"/>
+    <circle cx="167" cy="111" r="5.5" fill="#3a2214"/>
+    <circle cx="137" cy="108.5" r="1.8" fill="#fff"/>
+    <circle cx="169" cy="108.5" r="1.8" fill="#fff"/>
+    <path d="M125 106 Q134 99 143 105 L121 103" fill="none" stroke="#1a0e08" stroke-width="2.4" stroke-linejoin="round"/>
+    <path d="M157 105 Q166 99 175 106 L179 103" fill="none" stroke="#1a0e08" stroke-width="2.4" stroke-linejoin="round"/>
+  </g>
+  <!-- nose, cheeks, smile -->
+  <path d="M150 116 Q147 124 151 126" fill="none" stroke="#a96e45" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="153" cy="124" r="1.6" fill="url(#gold)"/>
+  <circle cx="124" cy="126" r="7" fill="#f08a7a" opacity=".45"/>
+  <circle cx="176" cy="126" r="7" fill="#f08a7a" opacity=".45"/>
+  <path d="M138 134 Q150 146 162 134 Q150 139 138 134 Z" fill="#b5283a"/>
+</svg>
