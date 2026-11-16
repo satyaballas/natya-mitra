@@ -1,4 +1,5 @@
-# 🪷 Natya Mitra – Bharatanatyam practice buddy
+# <img width="381" height="486" alt="image" src="https://github.com/user-attachments/assets/23d60691-ea76-4ee2-9260-be99d041deb1" />
+ Natya Mitra – Bharatanatyam practice buddy
 
 **Natya Mitra** ("dance friend") is a browser app that helps young children, from about 4 years old, practise beginner Bharatanatyam at home.
 
